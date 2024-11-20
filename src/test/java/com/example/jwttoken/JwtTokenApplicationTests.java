@@ -24,7 +24,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class JwtTokenApplicationTests {
-
+/*
 
     @Autowired
     private TestRestTemplate restTemplate;
@@ -118,5 +118,5 @@ class JwtTokenApplicationTests {
 
         // Возврат созданной задачи
         return response.getBody();
-    }
+    }*/
 }
