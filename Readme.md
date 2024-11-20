@@ -40,7 +40,10 @@ API документировано с помощью Swagger. Документа
 3. Соберите jar файл в проекте
 4. Запустите следующие команды в терминале:
  docker build -t postgres-image -f Dockerfile-postgres .
- docker build -t spring-app-image -f Dockerfile-java .
- docker-compose up -d
+ 
+docker build -t spring-app-image -f Dockerfile-java .
+ 
+docker-compose up -d
 5. Проект будет запущен в контейнерах Docker.
 6. Для остановки проекта нажмите Ctrl + C в терминале.
+P.S. возможно существуют проблемы с запуском версий
